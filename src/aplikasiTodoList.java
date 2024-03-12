@@ -120,7 +120,7 @@ public class aplikasiTodoList {
         System.out.println("TAMBAH DATA");
         var inputan = input("Input todo(x jika keluar)");
         if(inputan.equals("x")){
-//
+        // break
         }else {
             addTodolist(inputan);
         }
